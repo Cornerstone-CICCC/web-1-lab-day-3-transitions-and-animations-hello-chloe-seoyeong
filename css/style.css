@@ -42,4 +42,21 @@ body {
   transform: translate(-5px, -5px);
 }
 
+/* Task 2 */
+#btn2 {
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  transform: translate(0, 0);
+  filter: drop-shadow(0 0 #333);
+  transition: all 0.5s ease-in-out;
+}
+
+#btn2:hover {
+  background-color: #fff;
+  color: #000;
+  filter: drop-shadow(5px 5px #333);
+  transform: translate(-5px, -5px);
+}
+
 /*# sourceMappingURL=style.css.map */
