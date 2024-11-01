@@ -177,7 +177,7 @@ body {
   border-bottom: 50px solid yellow;
   border-left: 50px solid purple;
   box-shadow: 0 10px 20px 0px #fff;
-  animation: fancyGreenBox 2s linear infinite;
+  animation: fancyGreenBox 1s linear infinite;
 }
 
 @keyframes fancyGreenBox {
