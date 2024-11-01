@@ -59,4 +59,30 @@ body {
   transform: translate(-5px, -5px);
 }
 
+/* Task 4 */
+#shape1 {
+  width: 250px;
+  height: 250px;
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+#shape1::before {
+  content: "Hello!";
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#shape1:hover {
+  background-color: yellow;
+}
+#shape1:hover::before {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=style.css.map */
